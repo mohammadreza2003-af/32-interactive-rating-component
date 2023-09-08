@@ -96,14 +96,15 @@ main {
 .text-a {
   text-align: center;
 }
-span {
-  display: inline-block;
+.text {
   font-size: 0.8rem;
   padding: 0.3rem 1.8rem;
   border-radius: 1.2rem;
   background: hsl(213, 19%, 18%);
   color: hsl(25, 97%, 53%);
-  margin-bottom: 1.2rem;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto 1.2rem auto;
 }
 .heading-secondary {
   font-size: 1.6rem;
