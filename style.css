@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 :root {
-  --color-Orange: hsl(25, 97%, 53%);
+  --color-Orange: hsl(199, 79%, 47%);
   --color-White: hsl(0, 0%, 100%);
   --color-Light-Grey: hsl(217, 12%, 63%);
   --color-Medium-Grey: hsl(216, 12%, 54%);
@@ -16,11 +16,11 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: linear-gradient(135deg, hsl(228, 16%, 6%), hsl(27, 53%, 7%));
+  background: linear-gradient(135deg, hsl(228, 16%, 6%), hsl(202, 54%, 7%));
 }
 main {
   padding: 1.6rem 2rem;
-  background: linear-gradient(135deg, hsl(228, 16%, 6%), hsl(27, 53%, 7%));
+  background: linear-gradient(135deg, hsl(228, 22%, 5%), hsl(203, 56%, 11%)) 20%;
   border-radius: 1.8rem;
   max-width: 22rem;
   max-height: 352px;
