@@ -7,12 +7,14 @@ const back = document.querySelector(".back-card");
 const text = document.querySelector(".text");
 const btnTry = document.querySelector(".btn-t");
 
+//Submit
+
 btns.addEventListener("click", function (e) {
-  e.preventDefault();
-  if (e.target.classList.contains("btn")) {
+  const click = e.target;
+  if (click.classList.contains("btn")) {
     btnAll.forEach((btn) => btn.classList.remove("ac-btn"));
-    e.target.classList.add("ac-btn");
-    const data = e.target.getAttribute("data-set");
+    click.classList.add("ac-btn");
+    const data = click.getAttribute("data-set");
     btnSubmit.addEventListener("click", function (e) {
       e.preventDefault();
       front.classList.add("ac-front");
@@ -21,18 +23,11 @@ btns.addEventListener("click", function (e) {
     });
   }
 });
+
+//Try again
+
 btnTry.addEventListener("click", function (e) {
-  e.preventDefault();
   front.classList.remove("ac-front");
   back.classList.add("ac-back");
   btnAll.forEach((btn) => btn.classList.remove("ac-btn"));
 });
-//   if (e.target.classList.contains("btn")) {
-//     btnAll.forEach((btn) => btn.classList.remove("ac-btn"));
-//     e.target.classList.add("ac-btn");
-//     btnSubmit.addEventListener("click", function (e) {
-//       e.preventDefault();
-//       front.classList.add("ac-front");
-//       back.classList.remove("ac-back");
-//     });
-//   }
