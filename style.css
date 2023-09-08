@@ -25,6 +25,10 @@ main {
   max-width: 22rem;
   max-height: 352px;
 }
+.ac-front {
+  display: none;
+}
+
 .icon-s {
   background: hsl(213, 19%, 18%);
   padding: 0.8rem;
@@ -57,6 +61,10 @@ main {
   border-radius: 50%;
   transition: all 0.3s ease-in-out;
 }
+.ac-btn {
+  background: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
 .btn:is(:hover, :active) {
   background: hsl(25, 97%, 53%);
   color: hsl(0, 0%, 100%);
@@ -78,6 +86,9 @@ main {
 }
 .back-card {
   text-align: center;
+}
+.ac-back {
+  display: none;
 }
 .img-t {
   margin-bottom: 1.2rem;
