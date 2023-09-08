@@ -1,0 +1,1 @@
+# 32-interactive-rating-component
