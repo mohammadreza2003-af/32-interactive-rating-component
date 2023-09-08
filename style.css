@@ -95,6 +95,7 @@ main {
 }
 .text-a {
   text-align: center;
+  margin-bottom: 0.5rem;
 }
 .text {
   font-size: 0.8rem;
@@ -104,11 +105,26 @@ main {
   color: hsl(25, 97%, 53%);
   width: 50%;
   text-align: center;
-  margin: 0 auto 1.2rem auto;
+  margin: 0 auto 0.6rem auto;
 }
 .heading-secondary {
   font-size: 1.6rem;
-  margin-bottom: 0.7rem;
+  margin-bottom: 0.6rem;
   color: hsl(0, 0%, 100%);
   text-align: center;
+}
+.btn-t {
+  border: none;
+  width: 100%;
+  height: 2.4rem;
+  cursor: pointer;
+  color: hsl(0, 0%, 100%);
+  background: hsl(25, 97%, 53%);
+  border-radius: 1.2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-t:is(:hover, :active) {
+  color: hsl(25, 97%, 53%);
+  background: hsl(0, 0%, 100%);
 }
