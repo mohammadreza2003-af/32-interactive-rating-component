@@ -23,6 +23,7 @@ main {
   background: linear-gradient(180deg, hsl(214, 21%, 13%), hsl(218, 22%, 10%));
   border-radius: 1.8rem;
   max-width: 22rem;
+  max-height: 352px;
 }
 .icon-s {
   background: hsl(213, 19%, 18%);
@@ -54,6 +55,11 @@ main {
   color: hsl(216, 12%, 54%);
   background: hsl(213, 19%, 18%);
   border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+.btn:is(:hover, :active) {
+  background: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
 }
 .btn-s {
   border: none;
@@ -63,4 +69,34 @@ main {
   color: hsl(0, 0%, 100%);
   background: hsl(25, 97%, 53%);
   border-radius: 1.2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-s:is(:hover, :active) {
+  color: hsl(25, 97%, 53%);
+  background: hsl(0, 0%, 100%);
+}
+.back-card {
+  text-align: center;
+}
+.img-t {
+  margin-bottom: 1.2rem;
+}
+.text-a {
+  text-align: center;
+}
+span {
+  display: inline-block;
+  font-size: 0.8rem;
+  padding: 0.3rem 1.8rem;
+  border-radius: 1.2rem;
+  background: hsl(213, 19%, 18%);
+  color: hsl(25, 97%, 53%);
+  margin-bottom: 1.2rem;
+}
+.heading-secondary {
+  font-size: 1.6rem;
+  margin-bottom: 0.7rem;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
 }
